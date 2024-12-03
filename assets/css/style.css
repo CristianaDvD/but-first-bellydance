@@ -1,0 +1,43 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tapestry&display=swap');
+
+/*Colours palette*/
+/* CSS HEX 
+--oriental-pink: #c59d82;
+--shark: #1c1c22;
+--dark-burgundy: #670707;
+--tamarillo: #8a1513;
+--sandal: #a08169;
+--mahogany: #4d0606;
+--shiraz: #b60c15;
+--bazaar: #947474;
+--cape-cod: #505151;
+--gravel: #48444c;
+*/
+
+/*CSS variables*/
+
+:root {
+    --primary-font: "Delius Swash Caps", cursive;
+    --secondary-font: "Tapestry", sans-serif;
+    --primary-color: 
+}
+
+h1 {
+    color: #670707;
+    font-family: var(--secondary-font);
+}
+
+body{
+    background-color:#c59d82 ;
+}
+
+#navbar {
+    font-family: var(--primary-font);
+    font-weight:bold;
+    color: #670707;
+}
+
+#navbar:hover {
+    color: #8a1513;
+}
