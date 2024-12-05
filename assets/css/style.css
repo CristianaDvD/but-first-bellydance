@@ -35,6 +35,7 @@ h1 {
 body{
     background-color: var(--primary-color);}
 
+    /*Navbar */
 .navbar-nav {
     font-family: var(--primary-font);
     font-size: larger;
@@ -43,9 +44,18 @@ body{
 .navbar-brand {
     margin-right: 0%;
 }
-
-#video-header {
+.navbar {
+    background-color: var(--primary-color);
+    padding: 0;
+    margin: 20px;
+    width: 100%;
+}
+#video-top {
     padding:20px;
+}
+.vd-head {
+    color: var(--heading-color);
+    font-family: var(--secondary-font);
 }
 
 /*.custom-button {
