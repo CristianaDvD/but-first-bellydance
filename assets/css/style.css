@@ -1,7 +1,7 @@
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tapestry&display=swap');
 
-/*Colours palette*/
+/*Colors palette*/
 /* CSS HEX 
 --oriental-pink: #c59d82;
 --shark: #1c1c22;
@@ -20,24 +20,59 @@
 :root {
     --primary-font: "Delius Swash Caps", cursive;
     --secondary-font: "Tapestry", sans-serif;
-    --primary-color: 
+    --primary-color: #c59d82; /*oriental-pink*/
+    --secondary-color: #8a1513; /*tamarillo*/
+    --heading-color:#670707; /*dark-burgundy*/
 }
 
+/*Global styles*/
+
 h1 {
-    color: #670707;
+    color: var(--heading-color);
     font-family: var(--secondary-font);
 }
 
 body{
-    background-color:#c59d82 ;
-}
+    background-color: var(--primary-color);}
 
-#navbar {
+.navbar-nav {
     font-family: var(--primary-font);
-    font-weight:bold;
-    color: #670707;
+    font-size: larger;
+    
+}
+.navbar-brand {
+    margin-right: 0%;
 }
 
-#navbar:hover {
-    color: #8a1513;
+#video-header {
+    padding:20px;
+}
+
+/*.custom-button {
+    background-color: var(--heading-color);
+    color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+.custom-button:hover {
+    background-color: var(--secondary-color);
+    color: #947474;
+}*/
+
+/* ExtraSmall screens and up */
+@media screen and (min-width: 320px) {
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    
+    }
+
+   /* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #navbar {
+        margin:0;
+    }
+    
 }
