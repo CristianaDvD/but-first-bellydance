@@ -48,7 +48,6 @@ body{
     background-color: var(--primary-color);
     padding: 0;
     margin: 20px;
-    width: 100%;
 }
 #video-top {
     padding:20px;
@@ -71,18 +70,42 @@ body{
 
 /* ExtraSmall screens and up */
 @media screen and (min-width: 320px) {
-    
+    .navbar-heading {
+        font-size: 8vw;
+    }
+    .mob-size, .mob-size * {
+        flex-wrap: nowrap;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+    .navbar-heading {
+        font-size: 7vw;
+    }
+    .screen-size, .screen-size * {
+        max-width: 95vw;
+    }
     
     }
 
    /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #navbar {
-        margin:0;
+    .screen-size, .screen-size * {
+        max-width: 95vw;
+    }
+    .navbar-heading {
+        font-size: 5vw;
     }
     
+}
+/* Extra Large devices (extra large screens, 2560px and up) */
+@media screen and (min-width: 2560px) {
+    .navbar-heading {
+        font-size: 3vw;
+    }
+    .screen-size, .screen-size * {
+        max-width: 95vw;
+
+    }
 }
