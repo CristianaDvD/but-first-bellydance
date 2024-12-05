@@ -47,7 +47,7 @@ body{
 .navbar {
     background-color: var(--primary-color);
     padding: 0;
-    margin: 20px;
+    margin: 0 20px;
 }
 #video-top {
     padding:20px;
@@ -70,6 +70,7 @@ body{
 
 /* ExtraSmall screens and up */
 @media screen and (min-width: 320px) {
+     /*Styles added to make navbar responsive*/
     .navbar-heading {
         font-size: 8vw;
     }
@@ -80,6 +81,7 @@ body{
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+     /*Styles added to make navbar responsive*/
     .navbar-heading {
         font-size: 7vw;
     }
@@ -91,6 +93,7 @@ body{
 
    /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
+     /*Styles added to make navbar responsive*/
     .screen-size, .screen-size * {
         max-width: 95vw;
     }
@@ -101,6 +104,7 @@ body{
 }
 /* Extra Large devices (extra large screens, 2560px and up) */
 @media screen and (min-width: 2560px) {
+    /*Styles added to make navbar responsive*/
     .navbar-heading {
         font-size: 3vw;
     }
