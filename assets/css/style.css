@@ -23,6 +23,9 @@
     --primary-color: #c59d82; /*oriental-pink*/
     --secondary-color: #8a1513; /*tamarillo*/
     --heading-color:#670707; /*dark-burgundy*/
+    --shark-color:#1c1c22;
+    --light-dark-color: #c0bec1;
+    --sand-color: #a08169;
 }
 
 /*Global styles*/
@@ -49,12 +52,24 @@ body{
     padding: 0;
     margin: 0 20px;
 }
+
+/*Video section*/
 #video-top {
-    padding:20px;
+    background-color: var(--sand-color);
+    margin: 20px;
 }
 .vd-head {
-    color: var(--heading-color);
+    color: var(--secondary-color);
     font-family: var(--secondary-font);
+}
+/* Intro section*/
+#intro {
+    background-color: var(--sand-color);
+    margin: 20px;
+}
+.intro {
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
 }
 
 /*.custom-button {
@@ -77,6 +92,10 @@ body{
     .mob-size, .mob-size * {
         flex-wrap: nowrap;
     }
+    .intro-img {
+        width: 100px;
+        height: 70px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -88,6 +107,9 @@ body{
     .screen-size, .screen-size * {
         max-width: 95vw;
     }
+    .intro-img {
+        width: 200px;
+        height: 150px;}
     
     }
 
@@ -100,6 +122,11 @@ body{
     .navbar-heading {
         font-size: 5vw;
     }
+    .intro-img {
+        width: 250px;
+        height: 170px;
+    }
+    
     
 }
 /* Extra Large devices (extra large screens, 2560px and up) */
@@ -111,5 +138,9 @@ body{
     .screen-size, .screen-size * {
         max-width: 95vw;
 
+    }
+    .intro-img {
+        width: 300px;
+        height: 210px;
     }
 }
