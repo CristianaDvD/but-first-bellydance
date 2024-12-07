@@ -55,12 +55,18 @@ body{
 
 /*Video section*/
 #video-top {
-    background-color: var(--sand-color);
     margin: 20px;
 }
 .vd-head {
     color: var(--secondary-color);
     font-family: var(--secondary-font);
+}
+#credit {
+    color: var(--secondary-color);
+}
+#credit, #credit *{
+    display: flex;
+    position: relative;
 }
 /* Intro section*/
 #intro {
