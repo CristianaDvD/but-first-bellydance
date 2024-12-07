@@ -34,6 +34,10 @@ h1 {
     color: var(--heading-color);
     font-family: var(--secondary-font);
 }
+h2 {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+}
 
 body{
     background-color: var(--primary-color);}
@@ -57,12 +61,10 @@ body{
 #video-top {
     margin: 20px;
 }
-.vd-head {
-    color: var(--secondary-color);
-    font-family: var(--secondary-font);
-}
+
 #credit {
     color: var(--secondary-color);
+    font-family: var(--primary-font);
 }
 #credit, #credit *{
     display: flex;
@@ -72,6 +74,7 @@ body{
 #intro {
     background-color: var(--sand-color);
     margin: 20px;
+    padding: 15px;
 }
 .intro {
     font-family: var(--primary-font);
@@ -102,6 +105,9 @@ body{
         width: 100px;
         height: 70px;
     }
+    #credit {
+        font-size: x-small;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -117,6 +123,7 @@ body{
         width: 200px;
         height: 150px;}
     
+    
     }
 
    /* Large devices (small laptops, 992px and up) */
@@ -131,6 +138,9 @@ body{
     .intro-img {
         width: 250px;
         height: 170px;
+    }
+    #credit {
+        font-size: small;
     }
     
     
