@@ -91,8 +91,32 @@ body{
     background-color: var(--sand-color);
 }
 
+/*footer*/
+#contact {
+    background-image: url(../images/footer.webp);
+    font-family:var(--primary-font);
+    color: var(--primary-color);
+    margin: 0px 20px 0px 20px;
+    padding: 15px;
+    background-repeat:no-repeat;
+    background-position: bottom;
+    background-color: var(--shark-color);
+    background-size:auto;
+    
+}
+#contact a {
+    color: var(--primary-color);
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    font-size: larger;
+}
+#contact a:hover {
+    color: var(--secondary-color);
+}
 
 
+/*all buttons*/
 .custom-button {
     background-color: var(--heading-color);
     color: var(--primary-color);
