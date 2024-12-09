@@ -62,8 +62,8 @@
     <main>
     <section id="video-top">
         <h2 class="vd-head text-center display-4">Welcome!</h2>
-        <div class="ratio ratio-16x9">
-            <video src="assets/videos/header-video (1).webm" alt="Woman bellydancing slowmotion mode" type="video/webm" class="object-fit-fill" loop>
+        <div class="ratio ratio-21x9">
+            <video src="assets/videos/header-video (1).webm" alt="Woman bellydancing slow motion mode" type="video/webm" class="object-fit-fill" autoplay>
             </video>
             <p id="credit">Credit to Shutterstock</p>
           </div>
@@ -82,16 +82,45 @@
                 <div class="col-md-2 col-lg-3">
                     <img src="assets/images/intro2.jpg" alt="Red bellydancing costume" class="intro-img">
                 </div>
+                <!-- Button trigger modal -->
+               <div class="col">
+                <button type="button" class="btn custom-button" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe!</button>
+            </div>
             </div>
         </div>
     </section>
 
    
-        
-
     </main>
+<footer>
 
-
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Subscribe!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Be the first to follow the moves and rhythm. Sign up today and you won't miss out!</p>
+        <form class="row">
+            <div class="mb-3 col-lg-6">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+              </div>
+            <div class="mb-3 col-lg-6">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+            <div class="col">
+            <button type="submit" class="btn custom-button">Sign up!</button></div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
