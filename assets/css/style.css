@@ -120,7 +120,7 @@ body{
     font-family: var(--primary-font);
     color: var(--secondary-color);
 }
-.modal-content, .form-control {
+.modal-content, .form-control, .form-select, .form-check-input {
     background-color: var(--sand-color);
 }
 

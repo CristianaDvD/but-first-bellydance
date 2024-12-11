@@ -183,7 +183,70 @@
 
 
 </footer>
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Join us!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <fieldset class="row mb-3">
+                <legend class="col-form-label col-12 pt-0">Please check as appropriate:</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Adult
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" required-value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Child
+                    </label>
+                  </div>
+            <form class="row g-3">
+                <div class="col-12">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                  </div>
+                <div class="col-12">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-3">
+                  <label for="age" class="form-label">Age</label>
+                  <input type="number" class="form-control" id="age" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="classes" class="form-label">Class option</label>
+                  <select id="classes" class="form-select" required>
+                    <option value="" selected>Choose</option>
+                    <option value="2-5">Age Group 2-5</option>
+                    <option value="5-8">Age Group 5-8</option>
+                    <option value="8-12">Age Group 8-12</option>
+                    <option value="12-16">Age Group 12-16</option>
+                    <option value="beginners">Beginners</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Advanced">Advanced</option>
+                    <option value="Free-style">Free style</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                    <label for="add-details" class="form-label">Additional details</label>
+                    <textarea class="form-control" id="add-details" rows="3"></textarea>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn custom-button">Join now!</button>
+                </div>
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
