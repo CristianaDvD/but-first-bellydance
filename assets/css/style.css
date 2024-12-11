@@ -114,6 +114,17 @@ body{
     margin: 20px;
     padding: 15px;
 }
+
+/*Gallery page*/
+#gallery {
+    background-color: var(--sand-color);
+    margin: 20px;
+    padding: 15px;
+}
+.photos img {
+    margin: 5px;
+}
+
 /* Modal*/
 
 .modal-body {
@@ -180,6 +191,10 @@ body{
     #credit {
         font-size: x-small;
     }
+    .photos {
+        column-count: 2;
+        column-gap: 2;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -199,7 +214,10 @@ body{
         width: 200px;
         height: 150px;}
     
-    
+    .photos {
+        column-count: 3;
+        column-gap: 2;
+    }
     }
 
    /* Large devices (small laptops, 992px and up) */
@@ -221,6 +239,10 @@ body{
     }
     #credit {
         font-size: small;
+    }
+    .photos {
+        column-count: 4;
+        column-gap: 2;
     }
     
     
