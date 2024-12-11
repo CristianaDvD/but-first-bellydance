@@ -59,12 +59,17 @@ body{
     margin: 0 20px;
 }
 
+/*card elements styled for better visual interaction*/
 .card {
     background-color: var(--primary-color);
     font-family: var(--primary-font);
     color: var(--secondary-color);
     
 }
+.card>img {
+    padding-top: 10px;
+}
+   
 
 /*style added to card to sharpen-edges*/
 .card, card * {
@@ -102,10 +107,13 @@ body{
     padding: 15px;
 }
 
-.card>img {
-    padding-top: 10px;
-}
 
+/*adults classes section*/
+#adults {
+    background-color: var(--sand-color);
+    margin: 20px;
+    padding: 15px;
+}
 /* Modal*/
 
 .modal-body {
