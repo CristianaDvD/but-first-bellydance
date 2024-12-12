@@ -123,6 +123,8 @@ body{
 }
 .photos img {
     margin: 5px;
+    width: 100%;
+    height:fit-content;
 }
 
 /* Modal*/
