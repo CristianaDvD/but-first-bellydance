@@ -1,5 +1,5 @@
 /*Google fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tapestry&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tapestry&display=swap");
 
 /*Colors palette*/
 /* CSS HEX 
@@ -18,257 +18,257 @@
 /*CSS variables*/
 
 :root {
-    --primary-font: "Delius Swash Caps", cursive;
-    --secondary-font: "Tapestry", sans-serif;
-    --primary-color: #c59d82; /*oriental-pink*/
-    --secondary-color: #8a1513; /*tamarillo*/
-    --heading-color:#670707; /*dark-burgundy*/
-    --shark-color:#1c1c22;
-    --light-dark-color: #c0bec1;
-    --sand-color: #a08169;
+  --primary-font: "Delius Swash Caps", cursive;
+  --secondary-font: "Tapestry", sans-serif;
+  --primary-color: #c59d82; /*oriental-pink*/
+  --secondary-color: #8a1513; /*tamarillo*/
+  --heading-color: #670707; /*dark-burgundy*/
+  --shark-color: #1c1c22;
+  --light-dark-color: #c0bec1;
+  --sand-color: #a08169;
 }
 
 /*Global styles*/
 
 h1 {
-    color: var(--heading-color);
-    font-family: var(--secondary-font);
+  color: var(--heading-color);
+  font-family: var(--secondary-font);
 }
-h2, h5 {
-    color: var(--secondary-color);
-    font-family: var(--secondary-font);
-}
-
-body{
-    background-color: var(--primary-color);
-
+h2,
+h5 {
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
 }
 
-    /*Navbar */
+body {
+  background-color: var(--primary-color);
+}
+
+/*Navbar */
 .navbar-nav {
-    font-family: var(--primary-font);
-    font-size: larger;
-    
+  font-family: var(--primary-font);
+  font-size: larger;
 }
 .navbar-brand {
-    margin-right: 0%;
+  margin-right: 0%;
 }
 .navbar {
-    background-color: var(--primary-color);
-    padding-top: 5px;
-    margin: 0 20px;
+  background-color: var(--primary-color);
+  padding-top: 5px;
+  margin: 0 20px;
 }
 
 /*card elements styled for better visual interaction*/
 .card {
-    background-color: var(--primary-color);
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
-    
+  background-color: var(--primary-color);
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
 }
-.card>img {
-    padding-top: 10px;
+.card > img {
+  padding-top: 10px;
 }
-   
 
 /*style added to card to sharpen-edges*/
-.card, card * {
-    border-radius: 0;
+.card,
+card * {
+  border-radius: 0;
 }
 
 /*Video section*/
 #video-top {
-    margin: 20px;
+  margin: 20px;
 }
 
 #credit {
-    color: var(--secondary-color);
-    font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
 }
-#credit, #credit *{
-    display: flex;
-    position: relative;
+#credit,
+#credit * {
+  display: flex;
+  position: relative;
 }
 /* Intro section*/
 #intro {
-    background-color: var(--sand-color);
-    margin: 20px;
-    padding: 15px;
+  background-color: var(--sand-color);
+  margin: 20px;
+  padding: 15px;
 }
 .intro {
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
 }
 
 /*children classes section*/
 #children {
-    background-color: var(--sand-color);
-    margin: 20px;
-    padding: 15px;
+  background-color: var(--sand-color);
+  margin: 20px;
+  padding: 15px;
 }
-
 
 /*adults classes section*/
 #adults {
-    background-color: var(--sand-color);
-    margin: 20px;
-    padding: 15px;
+  background-color: var(--sand-color);
+  margin: 20px;
+  padding: 15px;
 }
 
 /*Gallery page*/
 #gallery {
-    background-color: var(--sand-color);
-    margin: 20px;
-    padding: 15px;
+  background-color: var(--sand-color);
+  margin: 20px;
+  padding: 15px;
 }
 .photos img {
-   margin: 2px;
-    width: 100%;
-    height:fit-content;
+  margin: 2px;
+  width: 100%;
+  height: fit-content;
 }
 
 /* Modal*/
 
 .modal-body {
-    font-family: var(--primary-font);
-    color: var(--secondary-color);
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
 }
-.modal-content, .form-control, .form-select, .form-check-input {
-    background-color: var(--sand-color);
+.modal-content,
+.form-control,
+.form-select,
+.form-check-input {
+  background-color: var(--sand-color);
 }
 
 /*footer*/
 #contact {
-    background-image: url(../images/footer.webp);
-    font-family:var(--primary-font);
-    color: var(--primary-color);
-    margin: 0px 20px 0px 20px;
-    padding: 15px;
-    background-repeat:no-repeat;
-    background-position: bottom;
-    background-color: var(--shark-color);
-    background-size:auto;
-    
+  background-image: url(../images/footer.webp);
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  margin: 0px 20px 0px 20px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: var(--shark-color);
+  background-size: auto;
 }
 #contact a {
-    color: var(--primary-color);
-    -webkit-transition: color 0.3s ease-in-out;
-    -o-transition: color 0.3s ease-in-out;
-    transition: color 0.3s ease-in-out;
-    font-size: larger;
+  color: var(--primary-color);
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  font-size: larger;
 }
 #contact a:hover {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
-
 
 /*all buttons*/
 .custom-button {
-    background-color: var(--heading-color);
-    color: var(--primary-color);
-    border: 2px solid var(--heading-color);
-    font-family: var(--primary-font);
-    margin: 20px;
+  background-color: var(--heading-color);
+  color: var(--primary-color);
+  border: 2px solid var(--heading-color);
+  font-family: var(--primary-font);
+  margin: 20px;
 }
 
 .custom-button:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color)
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 /* ExtraSmall screens and up */
 @media screen and (min-width: 320px) {
-    
-     /*Styles added to make navbar responsive*/
-    .navbar-heading {
-        font-size: 8vw;
-    }
-    .mob-size, .mob-size * {
-        flex-wrap: nowrap;
-    }
-    .intro-img {
-        width: 100px;
-        height: 70px;
-    }
-    #credit {
-        font-size: x-small;
-    }
-    .photos {
-        column-count: 1;
-        column-gap: 2;
-    }
+  /*Styles added to make navbar responsive*/
+  .navbar-heading {
+    font-size: 8vw;
+  }
+  .mob-size,
+  .mob-size * {
+    flex-wrap: nowrap;
+  }
+  .intro-img {
+    width: 100px;
+    height: 70px;
+  }
+  #credit {
+    font-size: x-small;
+  }
+  .photos {
+    column-count: 1;
+    column-gap: 2;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    /*body margin for better looking*/
-    body {
-        margin: 0 20px 0 20px;
-    }
-     /*Styles added to make navbar responsive*/
-    .navbar-heading {
-        font-size: 7vw;
-    }
-    .screen-size, .screen-size * {
-        max-width: 95vw;
-    }
-    .intro-img {
-        width: 200px;
-        height: 150px;}
-    
-    .photos {
-        column-count: 2;
-        column-gap: 2;
-    }
-    }
+  /*body margin for better looking*/
+  body {
+    margin: 0 20px 0 20px;
+  }
+  /*Styles added to make navbar responsive*/
+  .navbar-heading {
+    font-size: 7vw;
+  }
+  .screen-size,
+  .screen-size * {
+    max-width: 95vw;
+  }
+  .intro-img {
+    width: 200px;
+    height: 150px;
+  }
 
-   /* Large devices (small laptops, 992px and up) */
+  .photos {
+    column-count: 2;
+    column-gap: 2;
+  }
+}
+
+/* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-    /*body margin right/left*/
-    body {
-        margin: 0 35px 0 35px;
-    }
-     /*Styles added to make navbar responsive*/
-    .screen-size, .screen-size * {
-        max-width: 95vw;
-    }
-    .navbar-heading {
-        font-size: 5vw;
-    }
-    .intro-img {
-        width: 250px;
-        height: 170px;
-    }
-    #credit {
-        font-size: small;
-    }
-    .photos {
-        column-count: 3;
-        column-gap: 2;
-    }
-    
-    
+  /*body margin right/left*/
+  body {
+    margin: 0 35px 0 35px;
+  }
+  /*Styles added to make navbar responsive*/
+  .screen-size,
+  .screen-size * {
+    max-width: 95vw;
+  }
+  .navbar-heading {
+    font-size: 5vw;
+  }
+  .intro-img {
+    width: 250px;
+    height: 170px;
+  }
+  #credit {
+    font-size: small;
+  }
+  .photos {
+    column-count: 3;
+    column-gap: 2;
+  }
 }
 /* Extra Large devices (extra large screens, 2560px and up) */
 @media screen and (min-width: 2560px) {
-    /*body margin right/left*/
-    body {
-        margin: 0 45px 0 45px;
-    }
-    /*Styles added to make navbar responsive*/
-    .navbar-heading {
-        font-size: 3vw;
-    }
-    .screen-size, .screen-size * {
-        max-width: 95vw;
-
-    }
-    .intro-img {
-        width: 300px;
-        height: 210px;
-    }
-    .photos {
-        column-count: 4;
-        column-gap: 2;
-    }
+  /*body margin right/left*/
+  body {
+    margin: 0 45px 0 45px;
+  }
+  /*Styles added to make navbar responsive*/
+  .navbar-heading {
+    font-size: 3vw;
+  }
+  .screen-size,
+  .screen-size * {
+    max-width: 95vw;
+  }
+  .intro-img {
+    width: 300px;
+    height: 210px;
+  }
+  .photos {
+    column-count: 4;
+    column-gap: 2;
+  }
 }
