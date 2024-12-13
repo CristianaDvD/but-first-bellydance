@@ -94,81 +94,146 @@
       </nav>
     </header>
     <main>
-        <section id="event">
-            <div class="container">
-                <h2 class="display-5 text-center">Your event, your moment</h2>
+      <section id="event">
+        <div class="container">
+          <h2 class="display-5 text-center">Your event, your moment</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-7">
+            <!--Text copied over from https://hire-a-dancer.com/acts/p/belly-dancers-->
+            <p class="event-text">
+              This popular dance style originating from Turkey and Egypt has
+              made its way across the Western world, achieving a level of
+              popularity unheard of for many other solo dance forms. Our Belly
+              Dancers can perform a mesmerising act to music for your guests to
+              watch, or perhaps you will want them to get up and learn some
+              moves! Hire professional Belly dancers to bring a flavour of the
+              Middle East to your event or spice up a party with Belly Dance
+              classes for Hen parties and birthday parties. Tell us a bit more
+              about your event, and we will happily advise you on the right
+              options, from Belly dancers for weddings to Belly dancers for
+              Tourist Board events and exhibitions.
+            </p>
+          </div>
+          <div class="col-12 col-lg-5"></div>
+        </div>
+      </section>
+      <section id="hire-form">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-center">Hire form</h2>
+          </div>
+          <form
+            action="thankyou.html"
+            method="get"
+            class="row g-3 justify-content-center"
+          >
+            <div class="col-12 col-md-6">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" required />
             </div>
-            <div class="row">
-                <div class="col-12 col-lg-7">
-                    <p class="event-text"></p>
-                </div>
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required />
             </div>
-
-        </section>
+            <div class="col-12 col-md-4">
+              <label for="phone" class="form-label">Telephone Number</label>
+              <input type="tel" class="form-control" id="phone" required />
+            </div>
+            <div class="col-md-5">
+              <label for="choose-event" class="form-label">Event type</label>
+              <select id="choose-event" class="form-select" required>
+                <option selected>Select..</option>
+                <option value="wedding">Wedding</option>
+                <option value="christening">Christening Party</option>
+                <option value="18th">18th Bday Party</option>
+                <option value="bday-party">Birthday party</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="col-12 col-md-3">
+              <label for="date" class="form-label">Date required</label>
+              <input type="date" class="form-control" id="date" required />
+            </div>
+            <div class="mb-3">
+              <label for="add-details" class="form-label"
+                >Additional details</label
+              >
+              <textarea
+                class="form-control"
+                id="add-details"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn custom-button">Submit!</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
-<!--Contact-->
-<footer id="contact">
-    <div class="container">
-      <div class="row">
-        <h2>Contact us!</h2>
-      </div>
-      <div class="row">
-        <p class="col-sm-12">
-          <i class="fa-solid fa-envelope"></i> info@but-first-bellydance.co.uk
-        </p>
-        <p><i class="fa-solid fa-phone-volume"></i> 01432 272 999</p>
-      </div>
-      <div class="row">
-        <address>
-          <i class="fa-solid fa-location-dot"></i> 102 Golden Post <br />
-          Hereford <br />
-          HR2 7BZ
-        </address>
-      </div>
-      <div class="row">
-        <div class="col-1">
-          <a
-            href="www.instagram.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our instagram page (opens in a new tab)"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
+    <!--Contact-->
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <h2>Contact us!</h2>
         </div>
-        <div class="col-1">
-          <a
-            href="www.facebook.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our Facebook page (opens in a new tab)"
-            ><i class="fa-brands fa-square-facebook"></i
-          ></a>
+        <div class="row">
+          <p class="col-sm-12">
+            <i class="fa-solid fa-envelope"></i> info@but-first-bellydance.co.uk
+          </p>
+          <p><i class="fa-solid fa-phone-volume"></i> 01432 272 999</p>
         </div>
-        <div class="col-1">
-          <a
-            href="www.twitter.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Visit our twitter page (opens in a new tab)"
-            ><i class="fa-brands fa-x-twitter"></i
-          ></a>
+        <div class="row">
+          <address>
+            <i class="fa-solid fa-location-dot"></i> 102 Golden Post <br />
+            Hereford <br />
+            HR2 7BZ
+          </address>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <a
+              href="www.instagram.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our instagram page (opens in a new tab)"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="col-1">
+            <a
+              href="www.facebook.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+          </div>
+          <div class="col-1">
+            <a
+              href="www.twitter.com"
+              target="_blank"
+              rel="noopener"
+              aria-label="Visit our twitter page (opens in a new tab)"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!--Bootstrap JS-->
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"
-  ></script>
-  <!--Font awesome kit-->
-  <script
-    src="https://kit.fontawesome.com/4804c64e3a.js"
-    crossorigin="anonymous"
-  ></script>
-
+    <!--Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font awesome kit-->
+    <script
+      src="https://kit.fontawesome.com/4804c64e3a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

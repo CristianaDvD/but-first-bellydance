@@ -135,6 +135,19 @@ card * {
   color: var(--secondary-color);
 }
 
+/*hire page/ event section*/
+
+#event, #hire-form {
+  background-color: var(--sand-color);
+  margin: 20px;
+  padding: 15px;
+}
+
+.event-text {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+
 /* Modal*/
 
 .modal-body {
