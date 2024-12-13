@@ -30,16 +30,12 @@
 
 /*Global styles*/
 
-h1 {
+h1,h2,
+h5  {
   color: var(--heading-color);
   font-family: var(--secondary-font);
 }
-h2,
-h5 {
-  color: var(--secondary-color);
-  font-family: var(--secondary-font);
-}
-
+ 
 body {
   background-color: var(--primary-color);
 }
@@ -123,6 +119,19 @@ card * {
   margin: 2px;
   width: 100%;
   height: fit-content;
+}
+
+/*Thank you section*/
+
+#thank-you {
+  background-color: var(--sand-color);
+  margin: 20px;
+  padding: 15px;
+}
+
+.thank-you-text {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
 }
 
 /* Modal*/
