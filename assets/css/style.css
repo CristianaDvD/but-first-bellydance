@@ -94,7 +94,7 @@ card * {
   margin: 20px;
   padding: 15px;
 }
-.intro {
+.intro-text>p {
   font-family: var(--primary-font);
   color: var(--secondary-color);
 }
@@ -267,5 +267,8 @@ card * {
   .photos {
     column-count: 4;
     column-gap: 2;
+  }
+  p {
+    font-size: larger;
   }
 }
