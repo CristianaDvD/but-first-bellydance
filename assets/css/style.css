@@ -181,10 +181,7 @@ card * {
   .navbar-heading {
     font-size: 8vw;
   }
-  .mob-size,
-  .mob-size * {
-    flex-wrap: nowrap;
-  }
+  
   .intro-img {
     width: 100px;
     height: 70px;
