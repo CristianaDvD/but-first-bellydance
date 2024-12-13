@@ -30,12 +30,13 @@
 
 /*Global styles*/
 
-h1,h2,
-h5  {
+h1,
+h2,
+h5 {
   color: var(--heading-color);
   font-family: var(--secondary-font);
 }
- 
+
 body {
   background-color: var(--primary-color);
 }
@@ -90,7 +91,7 @@ card * {
   margin: 20px;
   padding: 15px;
 }
-.intro-text>p {
+.intro-text > p {
   font-family: var(--primary-font);
   color: var(--secondary-color);
 }
@@ -190,7 +191,7 @@ card * {
   .navbar-heading {
     font-size: 8vw;
   }
-  
+
   .intro-img {
     width: 100px;
     height: 70px;
