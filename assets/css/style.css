@@ -173,6 +173,13 @@ card * {
   padding-bottom: 20px;
 }
 
+/*hire form text*/
+
+#hire-form form {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+}
+
 /* Modal*/
 
 .modal-body {
