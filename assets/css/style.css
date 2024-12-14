@@ -39,6 +39,7 @@ h5 {
 
 body {
   background-color: var(--primary-color);
+  height: 100%;
 }
 
 /*Navbar */
@@ -61,6 +62,7 @@ body {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 .error {
   font-family: var(--primary-font);
@@ -102,6 +104,7 @@ card * {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 .intro-text > p {
   font-family: var(--primary-font);
@@ -113,6 +116,7 @@ card * {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 
 /*adults classes section*/
@@ -120,6 +124,7 @@ card * {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 
 /*Gallery page*/
@@ -127,6 +132,7 @@ card * {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 .photos img {
   margin: 2px;
@@ -140,6 +146,7 @@ card * {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 
 .thank-you-text {
@@ -154,11 +161,16 @@ card * {
   background-color: var(--sand-color);
   margin: 20px;
   padding: 15px;
+  height: 100%;
 }
 
 .event-text {
   font-family: var(--primary-font);
   color: var(--secondary-color);
+  text-align: center;
+}
+#event h2 {
+  padding-bottom: 20px;
 }
 
 /* Modal*/
@@ -185,6 +197,7 @@ card * {
   background-position: bottom;
   background-color: var(--shark-color);
   background-size: auto;
+  height: 100%;
 }
 #contact a {
   color: var(--primary-color);
@@ -228,6 +241,9 @@ card * {
   .photos {
     column-count: 1;
     column-gap: 2;
+  }
+  .event {
+    padding: 10px;
   }
 }
 
@@ -281,16 +297,42 @@ card * {
     column-count: 3;
     column-gap: 2;
   }
+  .event-text {
+    font-size: large;
+    padding: 30px;
+  }
 }
+
+/* Large devices (small laptops, 1300px and up) */
+@media screen and (min-width: 1300px) {
+  /*body margin right/left*/
+  body {
+    margin: 0 40px 0 40px;
+  }
+  .event-text {
+    margin: 20px;
+    font-size: larger;
+    padding: 20px;
+  }
+  .event {
+    margin: inherit;
+  }
+
+  /*Large devices 2000px and up to 2560px- Style added to make hire page to look good in-between screen sizes*/
+  @media screen and (min-width: 2000px) {
+    .event-text {
+      font-size: x-large;
+      margin: 40px;
+      padding: 30px;
+    }
+  }
+}
+
 /* Extra Large devices (extra large screens, 2560px and up) */
 @media screen and (min-width: 2560px) {
   /*body margin right/left*/
   body {
     margin: 0 45px 0 45px;
-  }
-  /*Styles added to make navbar responsive*/
-  .navbar-heading {
-    font-size: 3vw;
   }
   .screen-size,
   .screen-size * {
@@ -306,5 +348,10 @@ card * {
   }
   p {
     font-size: larger;
+  }
+  .event-text {
+    margin: 50px;
+    font-size: xx-large;
+    padding: 35px;
   }
 }
