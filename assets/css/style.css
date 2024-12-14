@@ -358,7 +358,21 @@ card * {
   #contact {
     padding-left: 50px;
   }
-}
+  /*Text area*/
+  p {
+    font-size: x-large;
+  }
+  h5 {
+    font-size: xx-large;
+  }
+   /*Buttons*/
+   .btn {
+    width: 140px;
+    height: 60px;
+    font-size: x-large;
+   }
+  }
+
 
 /*Large devices 2000px and up to 2560px- Style added to make hire page to look good in-between screen sizes*/
 @media screen and (min-width: 2000px) {
@@ -390,10 +404,6 @@ card * {
   .photos {
     column-count: 4;
     column-gap: 2;
-  }
-
-  p {
-    font-size: larger;
   }
 
   /*Hire page*/
