@@ -1,19 +1,6 @@
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tapestry&display=swap");
 
-/*Colors palette*/
-/* CSS HEX 
---oriental-pink: #c59d82;
---shark: #1c1c22;
---dark-burgundy: #670707;
---tamarillo: #8a1513;
---sandal: #a08169;
---mahogany: #4d0606;
---shiraz: #b60c15;
---bazaar: #947474;
---cape-cod: #505151;
---gravel: #48444c;
-*/
 
 /*CSS variables*/
 
@@ -206,8 +193,10 @@ card * {
   background-size: auto;
   height: 100%;
 }
+
 #contact a {
   color: var(--primary-color);
+  /*code copied over from Boardwalk Games*/
   -webkit-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
