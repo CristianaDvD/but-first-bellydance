@@ -230,18 +230,23 @@ card * {
   .navbar-heading {
     font-size: 8vw;
   }
-
+/*Intro section*/
   .intro-img {
     width: 100px;
     height: 70px;
   }
+  /*Text on video (home page)*/
   #credit {
     font-size: x-small;
   }
+
+/*Gallery page*/
   .photos {
     column-count: 1;
     column-gap: 2;
   }
+
+  /*Hire page*/
   .event {
     padding: 10px;
   }
@@ -261,11 +266,14 @@ card * {
   .screen-size * {
     max-width: 95vw;
   }
+
+  /*Intro section*/
   .intro-img {
     width: 200px;
     height: 150px;
   }
 
+  /*Gallery page*/
   .photos {
     column-count: 2;
     column-gap: 2;
@@ -286,17 +294,25 @@ card * {
   .navbar-heading {
     font-size: 5vw;
   }
+
+  /*Intro section*/
   .intro-img {
     width: 250px;
     height: 170px;
   }
+
+  /*Text on video (home page)*/
   #credit {
     font-size: small;
   }
+
+  /*Gallery*/
   .photos {
     column-count: 3;
     column-gap: 2;
   }
+
+  /*Hire page*/
   .event-text {
     font-size: large;
     padding: 30px;
@@ -309,6 +325,12 @@ card * {
   body {
     margin: 0 40px 0 40px;
   }
+  /*Intro section*/
+  .intro-text{
+    font-size: large;
+  }
+
+  /*Hire page*/
   .event-text {
     margin: 20px;
     font-size: larger;
@@ -338,17 +360,24 @@ card * {
   .screen-size * {
     max-width: 95vw;
   }
+
+  /*Intro section*/
   .intro-img {
     width: 300px;
     height: 210px;
   }
+
+  /*Gallery*/
   .photos {
     column-count: 4;
     column-gap: 2;
   }
+
   p {
     font-size: larger;
   }
+
+  /*Hire page*/
   .event-text {
     margin: 50px;
     font-size: xx-large;
