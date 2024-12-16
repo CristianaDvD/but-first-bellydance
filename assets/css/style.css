@@ -98,6 +98,10 @@ card * {
   color: var(--secondary-color);
 }
 
+.intro-img {
+  padding-bottom: 10px;
+}
+
 /*children classes section*/
 #children {
   background-color: var(--sand-color);
