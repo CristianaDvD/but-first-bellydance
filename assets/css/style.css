@@ -1,7 +1,6 @@
 /*Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Tapestry&display=swap");
 
-
 /*CSS variables*/
 
 :root {
@@ -230,11 +229,7 @@ card * {
   .navbar-heading {
     font-size: 8vw;
   }
-  /*Intro section*/
-  .intro-img {
-    width: 100px;
-    height: 70px;
-  }
+
   /*Text on video (home page)*/
   #credit {
     font-size: x-small;
@@ -267,12 +262,6 @@ card * {
     max-width: 95vw;
   }
 
-  /*Intro section*/
-  .intro-img {
-    width: 200px;
-    height: 150px;
-  }
-
   /*Gallery page*/
   .photos {
     column-count: 2;
@@ -293,12 +282,6 @@ card * {
   }
   .navbar-heading {
     font-size: 5vw;
-  }
-
-  /*Intro section*/
-  .intro-img {
-    width: 250px;
-    height: 170px;
   }
 
   /*Text on video (home page)*/
@@ -329,10 +312,6 @@ card * {
   .intro-text {
     font-size: larger;
   }
-  .intro-img {
-    width: 300px;
-    height: 200px;
-  }
 
   /*Hire page*/
   .event-text {
@@ -347,10 +326,6 @@ card * {
 
 /*Large deviced from 1500px up -Style added to make intro section responsive*/
 @media screen and (min-width: 1500px) {
-  .intro-img {
-    width: 400px;
-    height: 250px;
-  }
   .intro-text {
     font-size: x-large;
   }
@@ -365,7 +340,6 @@ card * {
   h5 {
     font-size: xx-large;
   }
-  
 }
 
 /*Large devices 2000px and up to 2560px- Style added to make hire page to look good in-between screen sizes*/
@@ -386,12 +360,6 @@ card * {
   .screen-size,
   .screen-size * {
     max-width: 95vw;
-  }
-
-  /*Intro section*/
-  .intro-img {
-    width: 300px;
-    height: 210px;
   }
 
   /*Gallery*/
