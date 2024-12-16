@@ -1,6 +1,6 @@
 # But first, Bellydance!
 
-The But first, Bellydance! website was created to be responsive, permitting all its visitors to have a good User Experience on different screen-size devices. The website welcomes all visitors that want to find out about belly dance classes for everyone over 2 years old. Also, all visitors can access the Hire page to transform any event into a unique one.
+The But first, Bellydance! website was created to be responsive, permitting all its visitors to have a good User Experience on different screen-size devices. 
 
 ![But first, Bellydance! seen on different devices](assets/images/site-responsive.png)
 
@@ -10,24 +10,44 @@ The But first, Bellydance! website was created to be responsive, permitting all 
 ## Contents
 
 ---
-User Experience
---
+## User Experience
+
+The But first, Bellydance! website welcomes all visitors that want to find out about belly dance classes for everyone over 2 years old, with different options for children and adults. Also, all visitors can access the Hire page to transform any event into a unique one. The goal of the site is to offer a different entertainment environment.
+
+### External user's goals.
+
+  * The site's users are interested in finding the most appropriate class option by age, when it takes place and price for all.
+  * The users are looking for a hire enquiry form to have a bellydancer at their event.
+  * The site is expected to have a gallery with high quality pictures.
+  * The users are looking to find contact information easily.
 
 
+## Design
+
+### Colour Scheme
+
+![But first, Bellydance! colour palette](assets/images/But%20first,%20Bellydance!%20colour%20palette.png)
+
+The website uses a colour palette to match with the majority of images used. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 
-### Connecting your Mongo database
+### Typography 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+Google Fonts was used for the following fonts:
+* Tapestry font was used for headings. It is a serif font.
+* Delius Swash Caps font was used for the body text on the site. It is a sans-serif font.
+
+### Imagery
+
+All images used for the website are credited in the [credits](#Credits) section.
+
+
+## Features
+
+The website is comprised of six pages, four of them being accessible from the navigation bar (home page, classes, hire, gallery) and the fifth which is a thank you page that opens when all three forms of the website (subscription, join now for classes and hire form) are submitted.
+
+### Navigation bar
+All pages of the website display a responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is an image of bellydancer ilustration logo together with the text But first, Bellydance!. To the right of the navigation bar are the links to the websites pages (home, classes, hire, gallery, contact). To allow a good user experience of the site, the But first, Bellydance! text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 
 ------
 
