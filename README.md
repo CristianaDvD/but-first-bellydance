@@ -68,7 +68,17 @@ Credits for this video are presented in the [credits](#Credits) section, as well
 
 - Second section presents a small introduction to what belly dance means.
   - It provides a short invitation for the user to browse thru the other pages to find out what is offering.
-  
+  - Two images, an illustration and a belly dance costume provides a even better experience for the user website.
+  - Here the user can find a subscribe button, if interested about new features of the website.
+
+ ![Screenshot of Intro section of But first, Bellydance! website.](assets/images/intro-section-screen.png)
+
+- Modal (subscription)
+  - After pressing the button Subscribe, a modal opens up in the home page where the user can write their email and name. Both inputs are required in order to submit.
+
+ ![Screenshot of subscribe modal of But first, Bellydance! website](assets/images/subscribe-modal-screen.png)
+
+ ### Footer/ Contact section
 
 
 
