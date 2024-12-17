@@ -149,6 +149,7 @@ Throughout the development process, I took care to make the website as accessibl
    - Ensuring menus are accessible by marking the current page as current for screen readers.
    - Giving screen reader information in cases when icons are used instead of text 
 
+- - - 
 
 ## Languages Used
 
@@ -171,3 +172,20 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+- - - 
+
+## Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, But first, Bellydance!.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+## Testing 
+
+Testing kept going throughout every stage of the development. As I went along developing, I used the Chrome developer tools to identify and fix any problems.
