@@ -44,6 +44,8 @@ All images used for the website are credited in the [credits](#Credits) section.
 
 The website is comprised of six pages, four of them being accessible from the navigation bar (home page, classes, hire, gallery), the fifth which is a thank you page that opens when all three forms of the website (subscription, join now for classes and hire form) are submitted, and sixth which is a 404 page in case something doesn't go as desired.
 
+_Initially, website pages were structured in sections with divs of a container each. After reviewing website across very large screen devices, decided to leave only the headings into a container and write the body of the sections in rows for a better user experience on very large screens. (This change can be seen in the commits)_
+
 ### Navigation bar
 
 - All pages of the website display a responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of bellydancer ilustration logo together with the text But first, Bellydance!. To the right of the navigation bar are the links to the websites pages (home, classes, hire, gallery, contact) visible and easily accessible.
@@ -132,3 +134,17 @@ When all three buttons present in the website (subscribe, join now, submit from 
 Owner also created a 404 Error page displaying same navigation bar and footer as the website, to save the user from searching for our website from scratch. (Created after my mentor's suggestion @G-Taylor)
 
    ![Screenshot of 404 page for But first, Bellydance! website](assets/images/404-screen.png)
+
+### Features to be implemented 
+
+- Parental permission in writting for children to join classes.
+- Free entry events for whoever can't afford to join classes.
+
+## Accessibility 
+
+Throughout the development process, I took care to make the website as accessible as feasible. I've done this by:
+
+   - Using descriptive alt attributes on images on the site.
+   - Making sure that the site has a enough color contrast.
+   - Ensuring menus are accessible by marking the current page as current for screen readers.
+   - Giving screen reader information in cases when icons are used instead of text 
