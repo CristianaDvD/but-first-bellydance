@@ -262,3 +262,39 @@ Hire form
 
 - Tested the hire form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form worked correctly and asked the user to fill in the thelephone number field. I filled out the name, email and phone field and tried to submit the form. The form worked correctly and asked the user to choose the correct event type selection field. I filled out the name, email, phone number field and selected an event and tried to submit the form. The form worked correctly and asked the user to choose the required date field. I filled out the name, email, phone number field and selected an event and date required and tried to submit the form. The form then opens the thank you page in the same browser window.
 
+## Credits
+
+
+- [Kera Cudmore](https://github.com/kera-cudmore) For readme.md writing.
+- [Boardwalk games project on LMS](https://github.com/CristianaDvD/boardwalk-games) For base of the html doc. Modified afterwards.
+- [Logo image](https://i.pinimg.com/236x/f6/03/b1/f603b15b7cb875f52c857afbb6f4ba92.jpg)
+- [Video on home page](https://www.shutterstock.com/ro/video/clip-1026164903-girl-performs-belly-dance-oriental-costume-black)
+- [Intro text on home page](https://www.cazbar.com/blog/origins-history-of-belly-dancing/)
+- [Illustration image on home page](https://5thelement.co.nz/wp-content/uploads/2008/05/bellydancers.jpg)
+- [Red costume photo on home page](https://i.pinimg.com/736x/96/87/d7/9687d71b305ebf2d4bf17643b423d1e8.jpg)
+- [Contact background image](https://5thelement.co.nz/wp-content/uploads/2008/05/bellydancers.jpg)
+- [Text on hire page](https://hire-a-dancer.com/acts/p/belly-dancers)
+- [Video on hire page](https://www.pexels.com/video/a-woman-doing-belly-dancing-4477920/)
+
+Links to images used for Classes page:
+- https://5thelement.co.nz/wp-content/uploads/2008/05/bellydancers.jpg
+- https://5thelement.co.nz/wp-content/uploads/2008/05/bellydancers.jpg
+- https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
+- https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
+- https://www.facebook.com/photo/?fbid=374498651538700&set=a.374498614872037 
+- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLJC5jGNeB-hq3qSphMQUS_XK9pMHgi_l4&psig=AOvVaw3VN766KdWxBJPFnger9byX&ust=1733948643468000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiuj52EnooDFQAAAAAdAAAAABBI
+- https://www.bellysister.com/wp-content/uploads/2020/08/BELLYDANCE-KID.jpg
+- https://i.ytimg.com/vi/kiqkT6owOUI/maxresdefault.jpg
+
+
+Gallery images used from:
+- https://labellydanceacademy.com/wp-content/uploads/2020/06/in-studio-shot.jpg
+- https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
+- https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
+- https://www.shutterstock.com/ro/image-photo/young-dancer-long-hair-oriental-costume-2182358155/edit?tool=bgremover&chatId=afe6a0ac44c34660ab06c3781df1c5d6	
+- https://i.ebayimg.com/images/g/vAQAAOSwtJZXVAdu/s-l1200.jpg
+- https://i.guim.co.uk/img/media/206e9171bcf70420c3bdf717ebc2be9ea0d52e8a/534_231_4340_2602/master/4340.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=6cd3104f4d826a3f533e3112d1a9e70a
+- https://www.cazbar.com/wp-content/uploads/2024/06/belly-dancing.png
+- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeoutabudhabi.com%2Fkids%2Fbumps-babies%2Ffitness%2F52288-belly-dancing-lessons-in-abu-dhabi&psig=AOvVaw0LFRQsdQEKy_DUPvvha7go&ust=1734033559576000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPj8rcfAoIoDFQAAAAAdAAAAABAk
+- https://i.ytimg.com/vi/O8fDQrDvyYU/maxresdefault.jpg
+
