@@ -127,3 +127,8 @@ When all three buttons present in the website (subscribe, join now, submit from 
 
   ![Screenshot of thank you page of But first, Bellydance! website](assets/images/thank-you-page-screen.png)
 
+### 404 page
+
+Owner also created a 404 Error page displaying same navigation bar and footer as the website, to save the user from searching for our website from scratch. (Created after my mentor's suggestion @G-Taylor)
+
+   ![Screenshot of 404 page for But first, Bellydance! website](assets/images/404-screen.png)
