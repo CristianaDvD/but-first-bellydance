@@ -148,3 +148,26 @@ Throughout the development process, I took care to make the website as accessibl
    - Making sure that the site has a enough color contrast.
    - Ensuring menus are accessible by marking the current page as current for screen readers.
    - Giving screen reader information in cases when icons are used instead of text 
+
+
+## Languages Used
+
+This website was made with HTML and CSS.
+
+### Frameworks, Libraries & Programs Used
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, footer, cards and forms were used and modified. Additional CSS styling was also implemented in style.css.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
