@@ -7,40 +7,46 @@ The But first, Bellydance! website was created to be responsive, permitting all 
 ## [View But first, Bellydance! website on Github pages](https://cristianadvd.github.io/but-first-bellydance/)
 
 ## Contents
-* [User Experience](#user-experience)
-  * [External user's goals](#external-users-goals)
 
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  
-* [Features](#Features)
-  * [Navigation bar](#navigation-bar)
-  * [Home page](#home-page)
-  * [Footer/ Contact page](#footer-contact-section)
-  * [Classes page](#classes-page)
-  * [Hire page](#hire-page)
-  * [Gallery page](#gallery-page)
-  * [Thank you page](#thank-you-page)
-  * [404 page](#404-page)
-  * [Features to be implemented](#features-to-be-implemented)
+- [User Experience](#user-experience)
 
-* [Accessibility](#Accessibility)
+  - [External user's goals](#external-users-goals)
 
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+- [Features](#Features)
 
-* [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+  - [Navigation bar](#navigation-bar)
+  - [Home page](#home-page)
+  - [Footer/ Contact page](#footer-contact-section)
+  - [Classes page](#classes-page)
+  - [Hire page](#hire-page)
+  - [Gallery page](#gallery-page)
+  - [Thank you page](#thank-you-page)
+  - [404 page](#404-page)
+  - [Features to be implemented](#features-to-be-implemented)
 
-* [Deployment & Local Development](#Deployment-&-Local-Development)
-  * [Deployment](#Deployment)
+- [Accessibility](#Accessibility)
 
-* [Testing](#testing)
-  * [Solved bugs](#solved-bugs)
-  * [Lighthouse](#lighthouse)
-  * [Full testing](#full-testing)
+- [Languages Used](#languages-used)
 
-* [Credits](#credits)  
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+- [Deployment & Local Development](#Deployment-&-Local-Development)
+
+  - [Deployment](#Deployment)
+
+- [Testing](#testing)
+
+  - [Solved bugs](#solved-bugs)
+  - [W3C Validator](#w3c-validator)
+  - [Lighthouse](#lighthouse)
+  - [Full testing](#full-testing)
+
+- [Credits](#credits)
+
 ---
 
 ## User Experience
@@ -237,6 +243,11 @@ Testing kept going throughout every stage of the development. As I went along de
 
 - Removed container class from div embedding body on all sections. This made the website responsive on xxl screens.
 
+### W3C Validator
+
+The [W3C](https://validator.w3.org/nu/) validator was used to validate the HTML and CSS on all pages of the website. No errors shown, only info due to closing tab as used Prettier to format all the files. Also after validating the CSS file no concerns as only Css variables were shown as issues.
+
+
 ### Lighthouse
 
 I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility and best practices of the website.
@@ -297,7 +308,6 @@ Hire form
 
 ## Credits
 
-
 - [Kera Cudmore](https://github.com/kera-cudmore) For readme.md writing.
 - [Boardwalk games project on LMS](https://github.com/CristianaDvD/boardwalk-games) For base of the html doc. Modified afterwards.
 - [Logo image](https://i.pinimg.com/236x/f6/03/b1/f603b15b7cb875f52c857afbb6f4ba92.jpg)
@@ -310,24 +320,24 @@ Hire form
 - [Video on hire page](https://www.pexels.com/video/a-woman-doing-belly-dancing-4477920/)
 
 Links to images used for Classes page:
+
 - https://5thelement.co.nz/wp-content/uploads/2008/05/bellydancers.jpg
 - https://5thelement.co.nz/wp-content/uploads/2008/05/bellydancers.jpg
 - https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
 - https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
-- https://www.facebook.com/photo/?fbid=374498651538700&set=a.374498614872037 
+- https://www.facebook.com/photo/?fbid=374498651538700&set=a.374498614872037
 - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fplaylist%3Flist%3DPLJC5jGNeB-hq3qSphMQUS_XK9pMHgi_l4&psig=AOvVaw3VN766KdWxBJPFnger9byX&ust=1733948643468000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOiuj52EnooDFQAAAAAdAAAAABBI
 - https://www.bellysister.com/wp-content/uploads/2020/08/BELLYDANCE-KID.jpg
 - https://i.ytimg.com/vi/kiqkT6owOUI/maxresdefault.jpg
 
-
 Gallery images used from:
+
 - https://labellydanceacademy.com/wp-content/uploads/2020/06/in-studio-shot.jpg
 - https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
 - https://www.hasinabellydance.com/wp-content/uploads/2015/06/hasina-bellydance-london-1305x430.jpg
-- https://www.shutterstock.com/ro/image-photo/young-dancer-long-hair-oriental-costume-2182358155/edit?tool=bgremover&chatId=afe6a0ac44c34660ab06c3781df1c5d6	
+- https://www.shutterstock.com/ro/image-photo/young-dancer-long-hair-oriental-costume-2182358155/edit?tool=bgremover&chatId=afe6a0ac44c34660ab06c3781df1c5d6
 - https://i.ebayimg.com/images/g/vAQAAOSwtJZXVAdu/s-l1200.jpg
 - https://i.guim.co.uk/img/media/206e9171bcf70420c3bdf717ebc2be9ea0d52e8a/534_231_4340_2602/master/4340.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=6cd3104f4d826a3f533e3112d1a9e70a
 - https://www.cazbar.com/wp-content/uploads/2024/06/belly-dancing.png
 - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.timeoutabudhabi.com%2Fkids%2Fbumps-babies%2Ffitness%2F52288-belly-dancing-lessons-in-abu-dhabi&psig=AOvVaw0LFRQsdQEKy_DUPvvha7go&ust=1734033559576000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPj8rcfAoIoDFQAAAAAdAAAAABAk
 - https://i.ytimg.com/vi/O8fDQrDvyYU/maxresdefault.jpg
-
