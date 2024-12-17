@@ -121,35 +121,35 @@ _Initially, website pages were structured in sections with divs of a container e
 
 Users can easily find and acces a fully responsive gallery page, displaying high quality images from belly dance classes, event-shows or presentation photos. Credit given to all websites in the [credits](#Credits) section.
 
-  ![Screenshot of gallery page of But first, Bellydance! website](assets/images/gallery-screen.png)
+![Screenshot of gallery page of But first, Bellydance! website](assets/images/gallery-screen.png)
 
-### Thank you page 
+### Thank you page
 
 When all three buttons present in the website (subscribe, join now, submit from hire form) are correctly submitted, these lead to a thank you page, that displays same navigation bar and footer as per website design and a short text. It also contains a Return to home page button for a better UX.
 
-  ![Screenshot of thank you page of But first, Bellydance! website](assets/images/thank-you-page-screen.png)
+![Screenshot of thank you page of But first, Bellydance! website](assets/images/thank-you-page-screen.png)
 
 ### 404 page
 
 Owner also created a 404 Error page displaying same navigation bar and footer as the website, to save the user from searching for our website from scratch. (Created after my mentor's suggestion @G-Taylor)
 
-   ![Screenshot of 404 page for But first, Bellydance! website](assets/images/404-screen.png)
+![Screenshot of 404 page for But first, Bellydance! website](assets/images/404-screen.png)
 
-### Features to be implemented 
+### Features to be implemented
 
 - Parental permission in writting for children to join classes.
 - Free entry events for whoever can't afford to join classes.
 
-## Accessibility 
+## Accessibility
 
 Throughout the development process, I took care to make the website as accessible as feasible. I've done this by:
 
-   - Using descriptive alt attributes on images on the site.
-   - Making sure that the site has a enough color contrast.
-   - Ensuring menus are accessible by marking the current page as current for screen readers.
-   - Giving screen reader information in cases when icons are used instead of text 
+- Using descriptive alt attributes on images on the site.
+- Making sure that the site has a enough color contrast.
+- Ensuring menus are accessible by marking the current page as current for screen readers.
+- Giving screen reader information in cases when icons are used instead of text
 
-- - - 
+---
 
 ## Languages Used
 
@@ -173,7 +173,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
-- - - 
+---
 
 ## Deployment
 
@@ -186,11 +186,11 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-## Testing 
+## Testing
 
-Testing kept going throughout every stage of the development. As I went along developing, I used the Chrome developer tools to identify and fix any problems. 
+Testing kept going throughout every stage of the development. As I went along developing, I used the Chrome developer tools to identify and fix any problems.
 
-### Solved bugs 
+### Solved bugs
 
 - Buttons were not centered. Googled code to center Subscribe button and used for the other buttons of the website.
 
@@ -204,3 +204,35 @@ Testing kept going throughout every stage of the development. As I went along de
 
 - Removed container class from div embedding body on all sections. This made the website responsive on xxl screens.
 
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility and best practices of the website.
+
+- Initial lighthouse testing :
+
+![Error found after lighthouse validation on home page for logo image](assets/images/logo-error.png)
+
+![Error found after lighthouse validation on images on intro section](assets/images/images-error.png)
+
+![Error found after lighthouse validation on text contrast](assets/images/contrast-error.png)
+
+![Error found after lighthouse validation on manifest site on all pages](assets/images/message-error-lighthouse.png)
+
+1. Serve images in next-gen formats. Lighthouse suggests using image formats such as WebP & AVIF to improve compression and lead to faster downloads and less data consumption. I have now converted the logo and all images to webp format using [Online-convertor](https://image.online-convert.com/)
+
+2. Background and foreground colors do not have a sufficient contrast ratio. I have now changed body text and card text to a the darker colour from the colour palette used.
+
+3. Browser errors were logged to the console. Href for manifest link didn't have the correct path. Issue was not solved after implementing the correct path. Slack search found a code solution as seen in the below image. Issue now solved.
+   ![Code solution for site manifest error](assets/images/manifest-slack.png)
+
+- Final Lighthouse testing:
+
+![Final lighthouse testing on home page](assets/images/home-page-lighthouse-final.png)
+
+![Final lighthouse testing on classes page](assets/images/children-lighthouse-final.png)
+
+![Final lighthouse testing on hire page](assets/images/event-lighthouse-final.png)
+
+![Final lighthouse testing on gallery page](assets/images/gallery-lighthouse-final.png)
+
+![Final lighthouse testing on thank you page](assets/images/thankyou-lighthouse-final.png)
