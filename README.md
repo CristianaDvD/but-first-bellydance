@@ -42,7 +42,7 @@ All images used for the website are credited in the [credits](#Credits) section.
 
 ## Features
 
-The website is comprised of six pages, four of them being accessible from the navigation bar (home page, classes, hire, gallery) and the fifth which is a thank you page that opens when all three forms of the website (subscription, join now for classes and hire form) are submitted, and sixth which is a 404 page in case something doesn't go as desired.
+The website is comprised of six pages, four of them being accessible from the navigation bar (home page, classes, hire, gallery), the fifth which is a thank you page that opens when all three forms of the website (subscription, join now for classes and hire form) are submitted, and sixth which is a 404 page in case something doesn't go as desired.
 
 ### Navigation bar
 
@@ -104,14 +104,19 @@ The website is comprised of six pages, four of them being accessible from the na
 ### Hire page
 
 - A hire event page broken into 2 sections:
+
   - Event section with heading "Your event, your moment" which tells the users why are they on this page.
   - A presentation text taken over from [Hire a Bellydancer website](https://hire-a-dancer.com/acts/p/belly-dancers)
   - A presentation video of a bellydancer providing a dance moment with fire element, convincing the users to fill out the following hire form on the website. (Merits acknowledged in the [credits](#Credits) section.)
 
   ![Screenshot of event section of But first, Bellydance! website](assets/images/event-screen.png)
 
-  - Hire form section. Form written with code used from Bootstrap, modified in HTML and also styled in CSS to fit with the content of the website. This displays required inputs as well as an optional textarea for additional details. 
+  - Hire form section. Form written with code used from Bootstrap, modified in HTML and also styled in CSS to fit with the content of the website. This displays required inputs as well as an optional textarea for additional details.
 
   ![Screenshot of hire form section of But first, Bellydance! website](assets/images/hire-form-screen.png)
-  
 
+### Gallery page
+
+Users can easily find and acces a fully responsive gallery page, displaying high quality images from belly dance classes, event-shows or presentation photos. Credit given to all websites in the [credits](#Credits) section.
+
+![Screenshot of gallery page of But first, Bellydance! website](assets/images/gallery-screen.png)
