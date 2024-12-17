@@ -236,3 +236,29 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 ![Final lighthouse testing on gallery page](assets/images/gallery-lighthouse-final.png)
 
 ![Final lighthouse testing on thank you page](assets/images/thankyou-lighthouse-final.png)
+
+### Full testing
+
+I went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+
+Links.
+
+1. Test each link on the home page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+2. Test each link on the classes page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+3. Test each link on the hire page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+4. Test each link on the gallery page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+5. Test each link on the thank you page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+6. Test each link on the 404 page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate tab.
+
+Join now Form.
+
+- Tested the join now form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form worked correctly and asked the user to fill in the age field. I filled out the name, email and age field and tried to submit the form. The form worked correctly and asked the user to choose the correct class selection field. I filled out the name, email, age field and selected a category of classes and tried to submit the form. The form then opens the thank you page in the same browser window.
+
+Subscribe form.
+
+- Tested the subscribe form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form then opens the thank you page in the same browser window.
+
+Hire form
+
+- Tested the hire form. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form worked correctly and asked the user to fill in the thelephone number field. I filled out the name, email and phone field and tried to submit the form. The form worked correctly and asked the user to choose the correct event type selection field. I filled out the name, email, phone number field and selected an event and tried to submit the form. The form worked correctly and asked the user to choose the required date field. I filled out the name, email, phone number field and selected an event and date required and tried to submit the form. The form then opens the thank you page in the same browser window.
+
