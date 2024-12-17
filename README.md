@@ -79,3 +79,21 @@ The website is comprised of six pages, four of them being accessible from the na
   - Social links can be find at the bottom of the footer, all opening in new tabs.
 
   ![Screenshot of footer of But first, Bellydance! website](assets/images/contact-screen.png)
+
+### Classes page
+
+- Classes page structured on 2 sections:
+  - Children classes section displays 4 cards with code used from Bootstrap and styled in CSS, providing information to users about when each age group class is taken place. Prices also displayed at the bottom of each card. 
+  - A Join now button can be find at the bottom of the section, for all users interested in getting their children to bellydance classes.
+
+  ![Screenshot of children classes section of But first, Bellydance! website](assets/images/children-section-screen.png)
+
+  - Adults classes section displays 4 cards with code used from Bootstrap and styled in CSS, providing information to users about when  each category of classes is taken place. Prices also displayed at the bottom of each card.
+  - A Join now button can be find at the bottom of the section, for all users interested to join a bellydance class.
+
+   ![Screenshot of adults classes section of But first, Bellydance! website](assets/images/adults-section-screen.png)
+
+  - A modal opens up after users are using the join now button. It displays a radio check form, and a form with required inputs for email address, name, age, class options to choose from, and an optional textarea for additional details.
+
+  ![Screenshot of join us modal of But first, Bellydance! website](assets/images/join-us-modal-screen.png)
+
