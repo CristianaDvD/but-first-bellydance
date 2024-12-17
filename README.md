@@ -119,4 +119,11 @@ The website is comprised of six pages, four of them being accessible from the na
 
 Users can easily find and acces a fully responsive gallery page, displaying high quality images from belly dance classes, event-shows or presentation photos. Credit given to all websites in the [credits](#Credits) section.
 
-![Screenshot of gallery page of But first, Bellydance! website](assets/images/gallery-screen.png)
+  ![Screenshot of gallery page of But first, Bellydance! website](assets/images/gallery-screen.png)
+
+### Thank you page 
+
+When all three buttons present in the website (subscribe, join now, submit from hire form) are correctly submitted, these lead to a thank you page, that displays same navigation bar and footer as per website design and a short text. It also contains a Return to home page button for a better UX.
+
+  ![Screenshot of thank you page of But first, Bellydance! website](assets/images/thank-you-page-screen.png)
+
