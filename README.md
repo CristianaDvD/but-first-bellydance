@@ -161,7 +161,7 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, footer, cards and forms were used and modified. Additional CSS styling was also implemented in style.css.
+Bootstrap Version 4.5 - The framework for the website. Code for the navigation bar, footer, cards and forms were used and modified. Additional CSS styling was also implemented in style.css.
 
 Google Fonts - To import the fonts used on the website.
 
@@ -188,4 +188,19 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 ## Testing 
 
-Testing kept going throughout every stage of the development. As I went along developing, I used the Chrome developer tools to identify and fix any problems.
+Testing kept going throughout every stage of the development. As I went along developing, I used the Chrome developer tools to identify and fix any problems. 
+
+### Solved bugs 
+
+- Buttons were not centered. Googled code to center Subscribe button and used for the other buttons of the website.
+
+- Some images in gallery were squeezing on larger devices. Added width and height to images in CSS to fix the issue.
+
+- Removed autoplay attribute from video as added standard by bootstrap code. Added controls instead for better UX.
+
+- Navigation menu was not displayed under the logo image. This was caused due to cancelling wrap rule as wanted to display all, logo, title and burger icon on small devices. Deleted style rule applied previously and decided to hide title page on small devices.
+
+- Text would not center in 404 page. This was due to missing the line between text and center words. Issue fixed.
+
+- Removed container class from div embedding body on all sections. This made the website responsive on xxl screens.
+
