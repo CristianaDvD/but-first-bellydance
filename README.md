@@ -74,16 +74,20 @@ Credits for this video are presented in the [credits](#Credits) section, as well
  ![Screenshot of Intro section of But first, Bellydance! website.](assets/images/intro-section-screen.png)
 
 - Modal (subscription)
-  - After pressing the button Subscribe, a modal opens up in the home page where the user can write their email and name. Both inputs are required in order to submit.
+  - After pressing the button Subscribe, a modal opens up in the home page where the users can write their email and name. Both inputs are required in order to submit.
 
  ![Screenshot of subscribe modal of But first, Bellydance! website](assets/images/subscribe-modal-screen.png)
 
  ### Footer/ Contact section
 
+- All website pages incorporate a footer with contact info for the website, using icons as these are universally recognized
+  - Footer presents contact information such as email, telephone number and address, on a background image of a bellydancer.
+  - Social links can be find at the bottom of the footer, all opening in new tabs.
+
+![Screenshot of footer of But first, Bellydance! website](assets/images/contact-screen.png)
 
 
 
-------
 
-## Release History
+
 
