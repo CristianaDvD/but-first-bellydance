@@ -7,7 +7,40 @@ The But first, Bellydance! website was created to be responsive, permitting all 
 ## [View But first, Bellydance! website on Github pages](https://cristianadvd.github.io/but-first-bellydance/)
 
 ## Contents
+* [User Experience](#user-experience)
+  * [External user's goals](#external-users-goals)
 
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  
+* [Features](#Features)
+  * [Navigation bar](#navigation-bar)
+  * [Home page](#home-page)
+  * [Footer/ Contact page](#footer-contact-section)
+  * [Classes page](#classes-page)
+  * [Hire page](#hire-page)
+  * [Gallery page](#gallery-page)
+  * [Thank you page](#thank-you-page)
+  * [404 page](#404-page)
+  * [Features to be implemented](#features-to-be-implemented)
+
+* [Accessibility](#Accessibility)
+
+
+* [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#Deployment-&-Local-Development)
+  * [Deployment](#Deployment)
+
+* [Testing](#testing)
+  * [Solved bugs](#solved-bugs)
+  * [Lighthouse](#lighthouse)
+  * [Full testing](#full-testing)
+
+* [Credits](#credits)  
 ---
 
 ## User Experience
